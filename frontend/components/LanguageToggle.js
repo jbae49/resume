@@ -15,3 +15,4 @@ const LanguageToggle = ({ language, toggleLanguage }) => {
 };
 
 export default LanguageToggle;
+
