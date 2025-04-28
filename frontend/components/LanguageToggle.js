@@ -8,7 +8,7 @@ const LanguageToggle = ({ language, toggleLanguage }) => {
         onClick={toggleLanguage} 
         className={styles.toggleButton}
       >
-        {language === 'en' ? 'Kor 🇰🇷' : 'Eng 🇺🇸'}
+        {language === 'en' ? 'KOR 🇰🇷' : 'ENG 🇺🇸'}
       </button>
     </div>
   );

@@ -1,10 +1,11 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import { useState } from 'react';
-import LanguageToggle from '../components/LanguageToggle';
 import { content } from '../translations';
 import HighlightedText from '../components/HighlightedText';
 import LinkedInLogo from '../components/LinkedInLogo';
+import NavButtons from '../components/NavButtons';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('');
@@ -28,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <LanguageToggle language={language} toggleLanguage={toggleLanguage} />
+      <NavButtons language={language} toggleLanguage={toggleLanguage} />
 
       <main className={styles.main}>
         <div className={styles.resume}>

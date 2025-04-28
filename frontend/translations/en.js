@@ -5,7 +5,8 @@ export const en = {
     experience: "EXPERIENCES (2 YRS 9 MONS TOTAL)",
     awards: "AWARDS",
     leadership: "ACTIVITIES & STARTUP PROJECTS",
-    skills: "TECHNICAL SKILLS"
+    skills: "TECHNICAL SKILLS",
+    blog: "BLOG"
   },
   contact: {
     email: "Email: jooyoungmmm@gmail.com",
@@ -200,5 +201,52 @@ export const en = {
       link: "https://solsonthesquare.online",
       linkText: "solsonthesquare.online"
     }
-  ]
+  ],
+  blog: {
+    posts: [
+      {
+        title: "How Kendrick Lamar Opened My Eyes to Social Problems",
+        date: "2024-10-20",
+        summary: "A personal reflection on how Kendrick Lamar's music and story changed my perspective on social issues and systemic problems.",
+        content: `I've always been a tech enthusiast.
+I'm not a deep engineer, but through building apps, working on startups, and interning as an engineer, I learned how technology works at a broad level. Maybe you could call me a tech generalist — someone who loves innovation, even if I don't know every detail under the hood.
+
+For most of my life, though, I never thought seriously about social problems.
+Homelessness, poverty, ESG issues — they were just distant headlines. To be blunt, I didn't really care.
+I thought if people wanted to escape tough situations, they could. Wasn't it just a matter of willpower?
+
+Then Kendrick Lamar changed everything for me.
+
+Kendrick, one of my favorite artists, grew up in Compton — a city infamous for gang violence, drugs, poverty.
+He wasn't the only one. Serena Williams came from Compton too.
+How was it that such brutal environments could still produce people like Kendrick, Serena, and others?
+It made me realize: the hood wasn't filled with people lacking willpower. It was filled with hidden talent — trapped by systemic forces far bigger than individual choice.
+
+Kendrick or someone else once said that everyone in his neighborhood wanted to leave — because survival there was a daily battle.
+Violence, addiction, despair — it wasn't that people lacked dreams.
+It's that the system around them made dreaming almost impossible.
+
+The more I thought about it, the more my curiosity grew — not just about homelessness, but about the deeper machinery behind it.
+I started noticing how these social problems are interconnected.
+And even with all the technological advancements — solar panels, AI, new drugs — the core issues often remain unsolved.
+
+Why?
+Because the system itself is broken.
+Because incentives are misaligned.
+Because technology, by itself, can't fix what culture, policy, and economics keep tangled.
+
+This realization didn't kill my love for technology.
+If anything, it made me want to use it better.
+Whether as an entrepreneur or maybe someday as a venture capitalist, I want to back solutions that don't just build flashy apps — but actually repair the broken pipes underneath.
+
+I want to see more Kendricks come into the world.
+More Serenas.
+More people whose genius and strength aren't buried by the zip code they're born into.
+
+This is just the beginning of my journey.
+I don't have all the answers yet.
+But I know this much: we can't be swept away by new technologies and forget the real work — building systems where everyone, no matter where they start, has a real chance to rise.`
+      }
+    ]
+  }
 }; 

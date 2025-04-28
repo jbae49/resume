@@ -5,7 +5,8 @@ export const ko = {
     experience: "경력 (총 2년 9개월)",
     awards: "수상",
     leadership: "대외활동 및 프로젝트",
-    skills: "테크니컬 스킬"
+    skills: "테크니컬 스킬",
+    blog: "블로그"
   },
   contact: {
     email: "이메일: jooyoungmmm@gmail.com",
@@ -200,5 +201,27 @@ export const ko = {
       link: "https://solsonthesquare.online",
       linkText: "solsonthesquare.online"
     }
-  ]
+  ],
+  blog: {
+    posts: [
+      {
+        title: "금융과 기술의 교차점에서의 나의 여정",
+        date: "2024-10-15",
+        summary: "금융과 기술 분야에서의 경력 경로에 대한 성찰.",
+        content: "샘플 블로그 포스트 내용입니다. 금융과 기술 역할 사이의 전환 경험, 직면한 도전, 그리고 얻은 교훈에 대해 논의할 것입니다. AI 엔지니어링에서 벤처 캐피탈, 금융 리서치까지 이어진 여정에서 이러한 산업들이 어떻게 중첩되고 서로 영향을 미치는지에 대한 독특한 관점을 얻었습니다."
+      },
+      {
+        title: "BaeTos 개발: 제품 개발에서 얻은 교훈",
+        date: "2024-09-20",
+        summary: "성공적인 언어 학습 애플리케이션 개발 및 출시에서 얻은 인사이트.",
+        content: "BaeTos 구축에 관한 향후 블로그 포스트를 위한 임시 콘텐츠입니다."
+      },
+      {
+        title: "금융 서비스에서의 AI에 대한 생각",
+        date: "2024-08-05",
+        summary: "현대 금융 기관에서 인공지능의 영향 탐구.",
+        content: "금융 서비스에서의 AI에 관한 향후 블로그 포스트를 위한 임시 콘텐츠입니다."
+      }
+    ]
+  }
 }; 

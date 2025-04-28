@@ -1,0 +1,77 @@
+.navButtons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggleButton {
+  background-color: #5aa9e6; /* Deeper blue for better contrast */
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-family: 'BricolageGrotesque', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white; /* White text for better contrast */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  letter-spacing: 0.5px;
+  width: 100%;
+}
+
+.toggleButton:hover {
+  background-color: #4187c5; /* Darker blue on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.toggleButton:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.blogButton {
+  display: inline-block;
+  background-color: #ff6b8b; /* Deeper pink for better contrast */
+  border: none;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-family: 'BricolageGrotesque', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: white; /* White text for better contrast */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.blogButton:hover {
+  background-color: #e05070; /* Darker pink on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.blogButton:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .navButtons {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .toggleButton, .blogButton {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+} 
