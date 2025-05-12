@@ -205,6 +205,74 @@ export const en = {
   blog: {
     posts: [
       {
+        title: "What Do I Want to Become, and Why?",
+        date: "2025-05-12",
+        summary: "A personal reflection on my future career aspirations, why I want to become a venture capitalist, and my thoughts on personal growth.",
+        content: `What do I want to become in 5–10 years? I want to be a competent venture capitalist in the US.
+
+Why the US? Because it has the biggest VC and startup market.
+
+And I want to invest in startups globally, not just in the States, because I believe that in 10 years, we'll see meaningful growth in emerging markets that seem stagnant right now — like Africa or South Asia.
+
+
+Why do I want to become a venture capitalist?
+
+I've done five internships across four different industries I could see myself building a career in, and the VC internship was by far the one I enjoyed the most.
+
+Why did I enjoy it more than the others?
+
+I thrive on learning new things. My biggest strength — and maybe also a weakness — is that I'm interested in a wide range of areas.
+
+I'm not an expert in any one field. I'd like to become one, but I haven't found my niche yet. That's honestly one of my biggest insecurities.
+
+Most jobs expect you to have a certain level of expertise. Right now, I'm in a vague state, which I feel a bit self-conscious about.
+
+Then again,
+Maybe it's right for me to focus on one thing for a while. But there are these startup ideas that keep popping into my head and pulling my attention. It's distracting, honestly.
+
+If I had to specialize in one area, it would probably have been data science or coding.
+
+But now with the rise of AI,
+I'm confused about what we really need to learn. Of course, understanding fundamental theories is always valuable — "But is it still worth learning to code from scratch?"
+
+It kind of feels like learning how to ride a horse after cars were already invented.
+
+That confusion is what led me — for now — to work on my startup.
+
+Looking inward,
+I know I'm curious about many things and I learn quickly. But I also know I need to be more serious and focused when I work.
+
+It's not that I take things lightly — I don't.
+
+But if I'm being honest,
+Sometimes, deep down, I think I can succeed even if I approach things a little playfully.
+
+I realized I tend to prioritize curiosity and enjoyment, maybe too much at times.
+
+So, I think I need to develop more discipline — but not by forcing myself. I want to stay aligned with what I want, what I'm doing, and why I'm doing it. That way, discipline can come more naturally.
+
+On a different note,
+This might sound random, but I also want to spend some time in Japan before I actually move to the States.
+
+Why? Because I genuinely love Japan — its culture, its aesthetics, maybe not every part of it, but enough that I really want to live there for a while and experience the work culture.
+
+It might not help me go straight to the US within 5–10 years.
+
+But then again, it's a 100-year life. I still have 70+ years ahead of me.
+
+So now is the time to take risks and explore what I want — not just what I need.
+
+Even if it's a detour, I believe it will shape who I am and teach me things I wouldn't have learned otherwise.
+
+Also, I think learning languages activates different parts of the brain that wouldn't be triggered otherwise. I looked it up, and yeah — language learning can help you think things in broader ways as all languages express things differently. I think it is incredibly valuable if I want to understand people better.
+
+So yeah, that's a little about what I want to become — at least career-wise. I'll write about what kind of person I want to become, because today's entry was more focused on career.
+
+Also as a final side note, what I just learned is that the left hemisphere of the brain is generally associated with language, logic, and analytical thinking, while the right hemisphere is linked to creativity, intuition and spatial reasoning. People say seeking out challenges and cultivating curiosity can help you to be more creative.
+
+What do you want to become in 10 years and why?`
+      },
+      {
         title: "How Kendrick Lamar Opened My Eyes to Social Problems",
         date: "2024-10-20",
         summary: "A personal reflection on how Kendrick Lamar's music and story changed my perspective on social issues and systemic problems.",
