@@ -11,6 +11,23 @@ export default function BlogPost({ post, onClick, isExpanded }) {
     });
   };
 
+  // Function to split content into paragraphs and render them
+  const renderParagraphs = (content) => {
+    // Split by double newlines to separate paragraphs
+    const paragraphs = content.split(/\n\n+/);
+    
+    return paragraphs.map((paragraph, index) => {
+      // Skip empty paragraphs
+      if (!paragraph.trim()) return null;
+      
+      return (
+        <p key={index} className={styles.paragraph}>
+          {paragraph}
+        </p>
+      );
+    });
+  };
+
   return (
     <div 
       className={`${styles.blogPost} ${isExpanded ? styles.expanded : ''}`}
@@ -29,7 +46,7 @@ export default function BlogPost({ post, onClick, isExpanded }) {
       
       {isExpanded && (
         <div className={styles.content}>
-          <p>{post.content}</p>
+          {renderParagraphs(post.content)}
         </div>
       )}
       
