@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import styles from '../styles/Blog.module.css';
 import { content } from '../translations';
 import BlogPost from '../components/BlogPost';
@@ -19,6 +19,15 @@ export default function Blog() {
   };
 
   const t = content[language];
+  
+  // Sort posts by date (newest first)
+  const sortedPosts = useMemo(() => {
+    return [...t.blog.posts].sort((a, b) => {
+      const dateA = new Date(a.date);
+      const dateB = new Date(b.date);
+      return dateB - dateA; // Descending order (newest first)
+    });
+  }, [t.blog.posts]);
 
   return (
     <div className={styles.container}>
@@ -44,7 +53,7 @@ export default function Blog() {
           <section className={styles.blogSection}>
             <h2>{t.sections.blog}</h2>
             <div className={styles.blogContainer}>
-              {t.blog.posts.map((post, index) => (
+              {sortedPosts.map((post, index) => (
                 <BlogPost
                   key={index}
                   post={post}

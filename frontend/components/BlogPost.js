@@ -11,21 +11,27 @@ export default function BlogPost({ post, onClick, isExpanded }) {
     });
   };
 
-  // Function to split content into paragraphs and render them
-  const renderParagraphs = (content) => {
-    // Split by double newlines to separate paragraphs
-    const paragraphs = content.split(/\n\n+/);
-    
-    return paragraphs.map((paragraph, index) => {
-      // Skip empty paragraphs
-      if (!paragraph.trim()) return null;
+  // Function to process content and allow HTML content
+  const renderContent = (content) => {
+    // Check if content contains HTML tags or image references
+    if (content.includes('<img') || content.includes('<p>') || content.includes('<h')) {
+      // If it contains HTML, use dangerouslySetInnerHTML to render it
+      return <div dangerouslySetInnerHTML={{ __html: content }} />;
+    } else {
+      // Otherwise, split by double newlines to separate paragraphs (old behavior)
+      const paragraphs = content.split(/\n\n+/);
       
-      return (
-        <p key={index} className={styles.paragraph}>
-          {paragraph}
-        </p>
-      );
-    });
+      return paragraphs.map((paragraph, index) => {
+        // Skip empty paragraphs
+        if (!paragraph.trim()) return null;
+        
+        return (
+          <p key={index} className={styles.paragraph}>
+            {paragraph}
+          </p>
+        );
+      });
+    }
   };
 
   return (
@@ -46,7 +52,7 @@ export default function BlogPost({ post, onClick, isExpanded }) {
       
       {isExpanded && (
         <div className={styles.content}>
-          {renderParagraphs(post.content)}
+          {renderContent(post.content)}
         </div>
       )}
       
