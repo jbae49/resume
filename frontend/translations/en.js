@@ -205,6 +205,38 @@ export const en = {
   blog: {
     posts: [
       {
+        title: "Why Did I Start Writing?",
+        date: "2025-05-16",
+        summary: "Reflections on my journey into writing, personal growth, and the desire to positively influence others through better communication.",
+        content: `<p>It's been a week since I seriously began learning Japanese, and I already feel like I'm getting the hang of it–though there are countless kanji to tackle.</p>
+
+<p>In my previous writing, I talked about what I want to achieve career-wise, but didn't delve into the kind of person I aspire to become. Briefly put, I aspire to be influential–but not in terms of fame or power.</p>
+
+<p>I want more people to be happier. But is happiness a zero-sum game? Does one person's joy necessitate another's sadness? I'm not sure. And let me get this straight, I don't think my motivation to inspire others comes from selflessness. Far from it–I'm a selfish person. My happiness always comes first.</p>
+
+<p>And why exactly do I want to inspire others? It's not about selfless volunteering or altruism–it's genuinely enjoyable. I find joy in uncovering people's talents and contributing to their growth whenever I get the opportunities to do so. Interestingly, that's also one of the responsibilities of venture capitalists.</p>
+
+<p>This motivation might not stem from compassion or generosity, but it's kind of thrilling for me, making my life feel purposeful that way, in a way I enjoy. Ultimately, being surrounded by good people is rewarding, and if I can either discover more of to-be these individuals or become one myself, all the better. Delivering messages or creating products that positively transform lives isn't gaslighting, though I unconsciously thought it could be misunderstood as such.</p>
+
+<p>Returning to the initial question: why have I started writing? Primarily, because I'm currently unemployed and, despite working on my startup and studying Japanese, I do have more free time than usual. Secondly, and perhaps more significantly, I've recently recognized that to become someone who positively influences others, I need really good communication skills. It sounds random but some people, say Kendrick Lamar or Mike Tyson, seem naturally gifted with words.</p>
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/blog/tyson.jpg" alt="Mike Tyson" style="max-width: 100%; height: auto; border-radius: 8px;" />
+</div>
+
+<p>Do you remember the interview where the interviewer asks Muhammad Ali and Mike Tyson who would win if they fought in their prime? Ali points to Mike, saying he(Ali) was a dancing master, that he could avoid punches because he was so fast—but if Mike landed even one punch, he was so strong that Ali would pass out. Then Mike goes, "I know I'm great, but let me tell you something—in this situation, every head must bow, every tongue must confess: this is the greatest of all time."</p>
+
+<p>It might sound random, but if you know, you know. Just listening to these two legends respecting each other and being humble humbles me.</p>
+
+<p>Back to the topic again– It's embarrassing, but I've read fewer than five books since turning 16—I'm now 26. Reading would undoubtedly enhance my vocabulary and clarity. If I disliked conversations, this path wouldn't have appealed to me.</p>
+
+<p>But I genuinely love meeting new people and engaging in meaningful discussions. Aspiring to become an influential, or more plainly put, "attractive" person, I now realize that being articulate is crucial. That's one of the main reasons I've begun writing. Additionally, writing helps me structure and deepen my thoughts. I frequently have interesting but fleeting ideas; writing them down allows me to expand on them progressively.</p>
+
+<p>One rule I've strictly implemented is drafting each piece within 20 minutes. This constraint has been an important role because previously I'd strive for perfection, and nothing ever got finished. So, here I am, practicing writing!</p>
+
+<p>I will be 10x better with words in a year—this is today's affirmation to myself.</p>`
+      },
+      {
         title: "What's Happening in Crypto in 5 Charts",
         date: "2023-09-07",
         summary: "Crypto isn't dead (but has become boring), but when's the next cycle?",
