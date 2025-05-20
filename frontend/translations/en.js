@@ -6,7 +6,7 @@ export const en = {
     awards: "AWARDS",
     leadership: "ACTIVITIES & STARTUP PROJECTS",
     skills: "TECHNICAL SKILLS",
-    blog: "BLOG"
+    blog: "BLOG & DIARIES"
   },
   contact: {
     email: "Email: jooyoungmmm@gmail.com",
@@ -459,6 +459,78 @@ What do you want to become in 10 years and why?`
 <p>I don't have all the answers yet.</p>
 
 <p>But I know this much: we can't be swept away by new technologies and forget the real work — building systems where everyone, no matter where they start, has a real chance to rise.</p>`
+      },
+      {
+        title: "Am I being stuck in the past, not living in the present?",
+        date: "2025-05-20",
+        summary: "Reflections on living in the present while pursuing future goals, and the bittersweet nature of nostalgia.",
+        content: `<p>In 2021, I decided to move to the United States. I was born and raised in South Korea, but I had always dreamed of moving to the States. I had actually planned it in 2014, but at that time, the plan fell apart. The person handling my study abroad process turned out to be a fraud.</p>
+
+<p>In middle school, my desire to study abroad wasn't just about "studying abroad" — it was deeper than that. I felt like I didn't quite fit into the Korean system. Maybe it was just my lack of social skills at the time. Friends didn't like me in elementary school, and friends didn't like me in middle school. But now, looking back, I appreciate that experience. Because from then on, I started learning how to be social, and now I've become someone who loves talking to people.</p>
+
+<p>It's strange, though, how I felt like my freedom was restricted — like I was boxed in — even as a 14-year-old girl living in a free, democratic country with nice, well-off parents.</p>
+
+<p>So when 2021 came, at 21 years old, I thought: this might be my last chance. I got accepted to UW–Madison. I moved to Wisconsin. Ironically, before leaving Korea, I thought I'd never come back. But just three months in, I found myself longing for Korean food and everything else.</p>
+
+<p>I didn't like the food. I didn't like the freezing weather. And I faced way more challenges than I expected. I had thought my English was good, but it wasn't at all. I struggled.</p>
+
+<p>I wouldn't say I hated Wisconsin, but I didn't love it either. I liked being in the U.S., but not Wisconsin. Though I had always wanted to live in nature — that bucket list item got checked. I got so used to living with daddy long legs (the spider fam), which freaked the hell out of me at first. I loved seeing 20 turkeys run in front of my house. I loved walking beside Lake Mendota, walking on the lake when it froze over.</p>
+
+<p>After graduating, I returned to Korea last year — and strangely, I started missing Wisconsin so much. It's crazy how time blurs the edges. That made me ask myself: am I really living in the present, or am I stuck in the past?</p>
+
+<p>The only place in the U.S. where I ever truly thought, "I wanna stay here," was NYC. That's the city I wanted to move to after graduation. But I couldn't. No job. No visa. No money.</p>
+
+<p>Still, I've noticed: the further I get from those moments, the more I appreciate them. Is it simply nostalgia? I didn't want to move to Korea when I was in Wisconsin — there was no nostalgia then. But maybe I didn't love it there, but I still felt like that was my home. That strange familiarity regardless of how long you live there… maybe that's what gives me nostalgia.</p>
+
+<p>But here's the question I keep coming back to:</p>
+
+<p>How do I keep chasing what I want, while being grounded in the present?</p>
+
+<p>I had a discussion with a coworker during my internship, who read a book called The Power of Now by Eckhart Tolle. At the time, I said, "Why can't chasing a dream count as being present? The journey itself is the now."</p>
+
+<p>But now, I feel nostalgic — and I'm starting to wonder how to really live in the present.</p>
+
+<p>I regret, I really regret not giving my absolute best while I was in the States. It was something I had dreamed of for so long. And while I did work hard to improve my English (lol), I wish I had pushed myself harder on school work and everything else too.</p>
+
+<p>Lately, honestly, I've been overwhelmed by the fear of getting stuck here again. I want to return to the U.S., but the options are limited. That uncertainty scares me. But it also motivates me when I'm in a good mood. When I'm down, though, it turns into fear.</p>
+
+<p>There will be a time in the future when I go back to the States — and I end up missing this moment right here:</p>
+
+<p>Living alone with my cats, in this nice apartment my parents gave me. I know I will go back. I know I'll get what I want.</p>
+
+<p>But writing this now, I realize: the only way is to try harder — and to make sure I don't regret not pushing myself further now.</p>
+
+<p>Yeah, that's right.</p>
+
+<p>I've been slacking off, using nostalgia as an excuse. But now I get it.</p>
+
+<p>Now I know what I need to do.</p>
+
+<p>I'll do my best — in a smart, efficient, effective way.</p>
+
+<p>It's only a matter of time. It's about my pace.</p>
+
+<p>But the time will come, as long as I keep trying harder and stay clear on what I want.</p>
+
+<p>Aight, this is the great thing about writing — it really does organize my thoughts.</p>
+
+<p>P.S.</p>
+
+<p>I've also gotten rejection letters from companies in Korea telling me I "don't fit their company culture." And it feels weird. Was it because of my nose piercing? I know I'd ace the work. I know I'd do my best. But I still appreciate that they tell me in advance — before I join.</p>
+
+<p>If I join and later realize they just don't like my piercing — then I probably wouldn't like them either.</p>
+
+<p>Damn. I know I should be more of a mastermind and not get emotional, but anyway… that was just a random thing I wanted to write down.</p>
+
+<p>I'm focused.</p>
+
+<p>I try my best.</p>
+
+<p>I take care of myself.</p>
+
+<p>I am doing well.</p>
+
+<p>And I will be successful.</p>`
       }
     ]
   }
